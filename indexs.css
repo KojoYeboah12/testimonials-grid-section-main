@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  margin: 0px;
+  font-family: Barlow Semi Condensed;
+  background-color: hsl(210, 46%, 95%);
+  padding: 100px 0px 0px 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* This is One-Section*/
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  column-gap: 20px;
+  vertical-align: top;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.one-section{
+  width: 550px;
+  height: 250px;
+  background-color: hsla(263, 55%, 52%, 0.9);
+  margin: 0px;
+  position: relative;
+  padding: 20px 0px 0px 25px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+}
+.one-section-hide{
+  position: absolute;
+  top: 0;
+  right: 87px;
+  z-index: 0;
+}
+.quotation-image{
+  object-fit: cover;
+  object-position: center;
+  height: 110px;
+}
+.one-section-one,
+.two-section-one,
+.three-section-one,
+.four-section-one,
+.five-section-one{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.daniel-img,
+.jonathan-img,
+.jeanette-img,
+.patrick-img{
+  height: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: white;
+  object-fit: cover;
+  object-position: center;
+}
+.one-section-profile p{
+  margin: 0px;
+  padding-left: 15px;
+}
+.daniel,
+.jonathan,
+.patrick{
+  color: white;
+  font-weight: 500;
+}
+.verified{
+  color: rgba(225, 225, 225, 0.8);
+  font-weight: 500;
+}
+.one-section-para-one,
+.five-section-para-one{
+  z-index: 100;
+  color: white;
+  position: relative;
+  font-size: 22px;
+  width: 520px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.one-section-para-two,
+.five-section-para-two{
+  font-size: 14px;
+  width: 495px;
+  color: rgba(225, 225, 225, 0.8);
+}
+
+/* This is Two-Section*/
+
+.two-section{
+  height: 260px;
+  width: 250px;
+  border-radius: 15px;
+  padding: 10px 0px 0px 25px;
+  background-color: hsla(217, 19%, 35%, 0.9);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+}
+.two-section-one{
+  padding-top: 9px;
+}
+.two-section-profile p{
+  margin: 0px;
+  padding-left: 15px;
+}
+.two-section-para-one{
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+  width: 250px;
+  margin-bottom: 10px;
+}
+.two-section-para-two{
+  font-size: 14px;
+  width: 200px;
+  color: rgba(225, 225, 225, 0.8);
+}
+
+/* This is Three-Section*/
+
+.three-section{
+  height: 530px;
+  width: 240px;
+  background-color: white;
+  padding: 20px 0px 0px 24px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 8px rgba(225, 225, 225, 0.5);
+}
+.three-section-profile p{
+  margin: 0px;
+  padding-left: 15px;
+}
+.kira-img{
+  height: 30px;
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: center;
+}
+.kira,
+.jeanette{
+  color: hsla(217, 19%, 35%, 0.9);
+  font-weight: 500;
+}
+.verifieds{
+  color: hsla(217, 19%, 35%, 0.6);
+  font-weight: 500;
+}
+.three-section-para-one,
+.four-section-para-one{
+  width: 200px;
+  font-size: 22px;
+  font-weight: 600;
+  color: hsla(217, 19%, 35%, 1);
+  margin-bottom: 10px;
+}
+.three-section-para-two,
+.four-section-para-two{
+  width: 200px;
+  color: hsla(217, 19%, 35%, 0.7);
+  font-size: 14px;
+}
+
+/* This is Four-Section*/
+
+.four-section{
+  height: 240px;
+  width: 250px;
+  border-radius: 15px;
+  padding: 20px 0px 0px 25px;
+  background-color: white;
+  box-shadow: 0px 0px 8px rgba(225, 225, 225, 0.5);
+  margin-top: -260px;
+}
+.four-section-profile p{
+  margin: 0px;
+  padding-left: 15px;
+}
+
+/* This is Five-Section*/
+
+.five-section{
+  width: 550px;
+  height: 250px;
+  background-color: hsl(219, 29%, 14%);
+  margin: 0px;
+  position: relative;
+  padding: 20px 0px 0px 25px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+  margin: -260px 0px 0px -300px;
+}
+.five-section-profile p{
+  margin: 0px;
+  padding-left: 15px;
+}
